@@ -10,9 +10,10 @@ Certifique-se de ter as seguintes bibliotecas Node.js instaladas no seu ambiente
     cors: Para habilitar o Cross-Origin Resource Sharing (CORS).
     @serialport/parser-readline: Um parser para dados em série no formato de linha.
 
+```bash
 Você pode instalá-las com o seguinte comando:
 
-npm install serialport socket.io express cors @serialport/parser-readline
+$ npm install serialport socket.io express cors @serialport/parser-readline
 
 # Uso
 Servidor WebSocket
